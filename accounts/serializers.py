@@ -41,4 +41,5 @@ class ForgotPasswordSerializer(serializers.Serializer):
         return data
 class ResetPasswordSerializer(serializers.Serializer):
     new_password = serializers.CharField(required=True)
+#last commit
 
